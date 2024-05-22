@@ -1,6 +1,10 @@
 package bach.info.org.jreleaser;
 
-/** JReleaser 1.12.0 */
+/**
+ * JReleaser 1.12.0
+ *
+ * @see <a href="https://github.com/jreleaser/jreleaser/releases/tag/v1.12.0">Release Notes</a>
+ */
 public interface JReleaser {
   String RELEASES = "https://github.com/jreleaser/jreleaser/releases/download";
   String VERSION = "1.12.0";
