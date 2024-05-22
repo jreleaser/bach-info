@@ -10,7 +10,7 @@ public interface JReleaser {
   String VERSION = "early-access";
   String PROPERTIES = // language=properties
       """
-      org.jreleaser=${RELEASES}/download/${VERSION}/jreleaser-tool-provider-${VERSION}.jar\
+      org.jreleaser.tool=${RELEASES}/download/${VERSION}/jreleaser-tool-provider-${VERSION}.jar\
       #SIZE=49421716&SHA-256=567f68097281b4b19051c9addb9966e466c7914d32eef80ac26c516cf18bffbf
       """
           .replace("${RELEASES}", RELEASES)
