@@ -1,4 +1,4 @@
-package bach.info.org.jreleaser;
+package run.info.org.jreleaser;
 
 /**
  * JReleaser 1.12.0
